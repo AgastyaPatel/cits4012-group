@@ -53,3 +53,13 @@ Report Requirements (max 5 pages, ACL format, LaTeX only)
 ## Validation Dset
  - 1303
  - mini: 120
+
+
+
+# Cleaning
+Handling Missing Data: Identify and handle any missing or incomplete data. This might involve removing entries with missing fields or filling in missing values if appropriate.
+Text Normalization: Normalize the text data to reduce variability. This can include converting text to lowercase, removing punctuation, and handling contractions.
+Removing Duplicates: Check for and remove any duplicate entries in the dataset to ensure that the model is not biased by repeated data.
+Balancing the Dataset: Ensure that the dataset is balanced in terms of the classes (entails and neutral). If one class is overrepresented, consider techniques like undersampling, oversampling, or generating synthetic data to balance the classes.
+Noise Reduction: Remove any irrelevant or noisy data that might not contribute to the task. This could include very short sentences, non-informative text, or entries with a lot of noise.
+Tokenization and Lemmatization: Consider tokenizing the text and applying lemmatization or stemming to reduce words to their base or root form, which can help in reducing dimensionality.
